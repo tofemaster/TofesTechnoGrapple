@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IQI",
+    "ICI",
+    "LSK"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "Q": "minecraft:quartz",
+    "C": "minecraft:copper_ingot",
+    "L": "minecraft:slime_ball",
+    "S": "minecraft:string",
+    "K": "minecraft:ink_sac"
+  },
+  "result": {
+    "id": "tofestechnograpple:dart",
+    "count": 16
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:mod_loaded",
+        "modid": "faktocraft"
+      }
+    }
+  ]
+}

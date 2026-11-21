@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "technograpple.mixin",
+  "mixins": ["GauntletGroundFrictionMixin", "GauntletGlideLockMixin", "SunInventoryLockMixin", "SunContainerLockMixin", "DisplayRenderSettingsInvoker"],
+  "client": [
+    "GauntletUseAnimationMixin",
+    "ItemInHandRendererInvoker",
+    "GauntletPointingPoseMixin",
+    "GauntletFirstPersonGlideMixin",
+    "GlideArmViewMixin",
+    "GauntletGlideLayersMixin",
+    "FirstPersonGlideActivationMixin",
+    "GauntletHandPivotMixin",
+    "GauntletElbowRenderMixin",
+    "GauntletElbowMeshMixin",
+    "GauntletOutletCaptureMixin",
+    "ItemRenderStateAccessor",
+    "ItemRenderLayerAccessor",
+    "SunSizeMixin",
+    "IrisPhotonSunMixin",
+    "IrisSunUniformMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

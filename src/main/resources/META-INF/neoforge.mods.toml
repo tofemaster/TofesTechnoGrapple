@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="tofestechnograpple"
+version="0.5.0"
+displayName="Tofe's TechnoGrapple"
+authors="Tofemaster & Codex(GPT-6.1)"
+credits="Inspired by IINNXX's Ninja Grappling Hook: Flow Edition for Minecraft Bedrock"
+iconFile="tofestechnograpple:textures/gui/config_icon.png"
+description="A twin-rail grappling gauntlet for swinging, reeling, and whip-pull traversal."
+
+[[mixins]]
+config="technograpple.mixins.json"
+
+[[dependencies.tofestechnograpple]]
+modId="minecraft"
+type="required"
+versionRange="[26.2]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tofestechnograpple]]
+modId="neoforge"
+type="required"
+versionRange="[26.2.0.95,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.tofestechnograpple]]
+modId="faktocraft"
+type="optional"
+versionRange="[1.0.1,)"
+ordering="AFTER"
+side="BOTH"
