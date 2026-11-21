@@ -1,0 +1,6 @@
+{
+  "parent": "tofestechnograpple:item/vanilla_like_gauntlet_wrist",
+  "textures": {
+    "layer0": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_6"
+  }
+}

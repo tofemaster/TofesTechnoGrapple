@@ -1,0 +1,31 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_gauntlet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "tofestechnograpple:grappling_hook"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_gauntlet"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "tofestechnograpple:faktocraft_dart"
+    ]
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "faktocraft"
+    }
+  ]
+}
