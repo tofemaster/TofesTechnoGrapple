@@ -1,0 +1,43 @@
+{
+  "hook_launch": {
+    "subtitle": "subtitles.tofestechnograpple.hook_launch",
+    "sounds": [
+      "tofestechnograpple:hook/launch_1",
+      "tofestechnograpple:hook/launch_2",
+      "tofestechnograpple:hook/launch_3"
+    ]
+  },
+  "pump_return": {
+    "subtitle": "subtitles.tofestechnograpple.pump_return",
+    "sounds": [
+      "tofestechnograpple:hook/pump_return"
+    ]
+  },
+  "whip_pull": {
+    "subtitle": "subtitles.tofestechnograpple.whip_pull",
+    "sounds": [
+      {
+        "name": "tofestechnograpple:hook/whip_pull",
+        "pitch": 0.94
+      }
+    ]
+  },
+  "cannot_fire": {
+    "subtitle": "subtitles.tofestechnograpple.cannot_fire",
+    "sounds": [
+      "tofestechnograpple:hook/cannot_fire"
+    ]
+  },
+  "reload_eject": {
+    "subtitle": "subtitles.tofestechnograpple.reload_eject",
+    "sounds": [
+      "tofestechnograpple:hook/reload_eject"
+    ]
+  },
+  "reload_insert": {
+    "subtitle": "subtitles.tofestechnograpple.reload_insert",
+    "sounds": [
+      "tofestechnograpple:hook/reload_insert"
+    ]
+  }
+}

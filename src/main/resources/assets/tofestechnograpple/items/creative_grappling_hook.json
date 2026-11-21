@@ -1,0 +1,595 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "tofestechnograpple:vanilla_like",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "tofestechnograpple:item/vanilla_like_gauntlet"
+      },
+      "cases": [
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand",
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:range_dispatch",
+                "property": "tofestechnograpple:vanilla_like_frame",
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist"
+                },
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_1"
+                    }
+                  },
+                  {
+                    "threshold": 2,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_2"
+                    }
+                  },
+                  {
+                    "threshold": 3,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_3"
+                    }
+                  },
+                  {
+                    "threshold": 4,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_4"
+                    }
+                  },
+                  {
+                    "threshold": 5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_5"
+                    }
+                  },
+                  {
+                    "threshold": 6,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_6"
+                    }
+                  },
+                  {
+                    "threshold": 7,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_7"
+                    }
+                  },
+                  {
+                    "threshold": 8,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_8"
+                    }
+                  },
+                  {
+                    "threshold": 9,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_9"
+                    }
+                  },
+                  {
+                    "threshold": 10,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_10"
+                    }
+                  },
+                  {
+                    "threshold": 11,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_11"
+                    }
+                  },
+                  {
+                    "threshold": 12,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_12"
+                    }
+                  },
+                  {
+                    "threshold": 13,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_13"
+                    }
+                  },
+                  {
+                    "threshold": 14,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_14"
+                    }
+                  },
+                  {
+                    "threshold": 15,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_gauntlet_wrist_15"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:range_dispatch",
+                "property": "tofestechnograpple:hook_display",
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tofestechnograpple:item/vanilla_like_display_cyan"
+                },
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_display_yellow"
+                    }
+                  },
+                  {
+                    "threshold": 2,
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "tofestechnograpple:attachment_cells",
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/vanilla_like_display_green_1"
+                      },
+                      "entries": [
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tofestechnograpple:item/vanilla_like_display_green_2"
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tofestechnograpple:item/vanilla_like_display_green"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 3,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_display_red"
+                    }
+                  },
+                  {
+                    "threshold": 4,
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "tofestechnograpple:attachment_cells",
+                      "fallback": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/vanilla_like_display_green_1"
+                      },
+                      "entries": [
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tofestechnograpple:item/vanilla_like_display_green_2"
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:model",
+                            "model": "tofestechnograpple:item/vanilla_like_display_green"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/vanilla_like_display_cyan"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:display_context",
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "tofestechnograpple:item/grappling_hook"
+      },
+      "cases": [
+        {
+          "when": [
+            "firstperson_righthand",
+            "firstperson_lefthand",
+            "thirdperson_righthand",
+            "thirdperson_lefthand"
+          ],
+          "model": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "tofestechnograpple:item/electronic_gauntlet"
+              },
+              {
+                "type": "minecraft:range_dispatch",
+                "property": "tofestechnograpple:hook_display",
+                "fallback": {
+                  "type": "minecraft:condition",
+                  "property": "tofestechnograpple:shader_display_glow",
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "tofestechnograpple:item/gauntlet_display_idle_glow"
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "tofestechnograpple:item/gauntlet_display_idle"
+                  }
+                },
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_travelling_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_travelling"
+                      }
+                    }
+                  },
+                  {
+                    "threshold": 2,
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "tofestechnograpple:attachment_cells",
+                      "fallback": {
+                        "type": "minecraft:condition",
+                        "property": "tofestechnograpple:shader_display_glow",
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "tofestechnograpple:item/gauntlet_display_attached_1_glow"
+                        },
+                        "on_false": {
+                          "type": "minecraft:model",
+                          "model": "tofestechnograpple:item/gauntlet_display_attached_1"
+                        }
+                      },
+                      "entries": [
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:condition",
+                            "property": "tofestechnograpple:shader_display_glow",
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_2_glow"
+                            },
+                            "on_false": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_2"
+                            }
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:condition",
+                            "property": "tofestechnograpple:shader_display_glow",
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_glow"
+                            },
+                            "on_false": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 3,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_error_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_error"
+                      }
+                    }
+                  },
+                  {
+                    "threshold": 4,
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "tofestechnograpple:attachment_cells",
+                      "fallback": {
+                        "type": "minecraft:condition",
+                        "property": "tofestechnograpple:shader_display_glow",
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "tofestechnograpple:item/gauntlet_display_attached_1_glow"
+                        },
+                        "on_false": {
+                          "type": "minecraft:model",
+                          "model": "tofestechnograpple:item/gauntlet_display_attached_1"
+                        }
+                      },
+                      "entries": [
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:condition",
+                            "property": "tofestechnograpple:shader_display_glow",
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_2_glow"
+                            },
+                            "on_false": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_2"
+                            }
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:condition",
+                            "property": "tofestechnograpple:shader_display_glow",
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached_glow"
+                            },
+                            "on_false": {
+                              "type": "minecraft:model",
+                              "model": "tofestechnograpple:item/gauntlet_display_attached"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "threshold": 5,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_rope_idle_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_rope_idle"
+                      }
+                    }
+                  },
+                  {
+                    "threshold": 7,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_idle_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_idle"
+                      }
+                    }
+                  },
+                  {
+                    "threshold": 8,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_whip_empty_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_whip_empty"
+                      }
+                    }
+                  },
+                  {
+                    "threshold": 9,
+                    "model": {
+                      "type": "minecraft:condition",
+                      "property": "tofestechnograpple:shader_display_glow",
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_grip_empty_glow"
+                      },
+                      "on_false": {
+                        "type": "minecraft:model",
+                        "model": "tofestechnograpple:item/gauntlet_display_tandem_grip_empty"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "minecraft:range_dispatch",
+                "property": "tofestechnograpple:pump_frame_starboard",
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tofestechnograpple:item/gauntlet_pump_0"
+                },
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_1"
+                    }
+                  },
+                  {
+                    "threshold": 2,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_2"
+                    }
+                  },
+                  {
+                    "threshold": 3,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_3"
+                    }
+                  },
+                  {
+                    "threshold": 4,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_4"
+                    }
+                  },
+                  {
+                    "threshold": 5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_5"
+                    }
+                  },
+                  {
+                    "threshold": 6,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_6"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "tofestechnograpple:rotating_rail",
+                "front": "tofestechnograpple:item/gauntlet_rail_port",
+                "dart": "tofestechnograpple:item/hook_docked_port",
+                "port": true,
+                "pivot": [
+                  5.995,
+                  10.3,
+                  16.95
+                ]
+              },
+              {
+                "type": "tofestechnograpple:rotating_rail",
+                "front": "tofestechnograpple:item/gauntlet_rail_starboard",
+                "dart": "tofestechnograpple:item/hook_docked_starboard",
+                "port": false,
+                "pivot": [
+                  10.045,
+                  10.3,
+                  16.95
+                ]
+              },
+              {
+                "type": "minecraft:range_dispatch",
+                "property": "tofestechnograpple:pump_frame_port",
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "tofestechnograpple:item/gauntlet_pump_port_0"
+                },
+                "entries": [
+                  {
+                    "threshold": 1,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_1"
+                    }
+                  },
+                  {
+                    "threshold": 2,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_2"
+                    }
+                  },
+                  {
+                    "threshold": 3,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_3"
+                    }
+                  },
+                  {
+                    "threshold": 4,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_4"
+                    }
+                  },
+                  {
+                    "threshold": 5,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_5"
+                    }
+                  },
+                  {
+                    "threshold": 6,
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "tofestechnograpple:item/gauntlet_pump_port_6"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "tofestechnograpple:reload_hatch"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

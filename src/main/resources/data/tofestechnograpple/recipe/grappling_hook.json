@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": { "type": "neoforge:mod_loaded", "modid": "faktocraft" }
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ACD",
+    "TIR",
+    "NLN"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "C": "minecraft:copper_ingot",
+    "D": "minecraft:diamond",
+    "R": "minecraft:resin_brick",
+    "T": "minecraft:comparator",
+    "I": "minecraft:iron_block",
+    "N": "minecraft:netherite_ingot",
+    "L": "minecraft:redstone_lamp"
+  },
+  "result": {
+    "id": "tofestechnograpple:grappling_hook"
+  }
+}
