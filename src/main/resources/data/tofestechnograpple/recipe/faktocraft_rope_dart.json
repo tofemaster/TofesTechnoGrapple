@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " L ",
+    "ICI",
+    "FSF"
+  ],
+  "key": {
+    "L": "faktocraft:lead_plate",
+    "I": "faktocraft:iron_plate",
+    "C": "faktocraft:copper_plate",
+    "F": "faktocraft:carbon_fibers",
+    "S": "minecraft:string"
+  },
+  "result": {
+    "id": "tofestechnograpple:rope_dart",
+    "count": 16
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "faktocraft"
+    }
+  ]
+}
