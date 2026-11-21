@@ -1,0 +1,26 @@
+{
+  "parent": "tofestechnograpple:item/vanilla_like_gauntlet",
+  "textures": {"layer0": "tofestechnograpple:item/vanilla_like_gauntlet_wrist"},
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [-90, 180, 0],
+      "translation": [0, 0.75, -2.0],
+      "scale": [0.77, 1.04, 0.65]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-90, 180, 0],
+      "translation": [0, 0.75, -2.0],
+      "scale": [0.77, 1.04, 0.65]
+    },
+    "thirdperson_righthand": {
+      "rotation": [-90, 180, 0],
+      "translation": [0, 0.65, -1.5],
+      "scale": [0.68, 0.925, 0.65]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-90, 180, 0],
+      "translation": [0, 0.65, -1.5],
+      "scale": [0.68, 0.925, 0.65]
+    }
+  }
+}
