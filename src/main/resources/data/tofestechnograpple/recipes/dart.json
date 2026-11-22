@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "faktocraft"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "pattern": [
+          "IQI",
+          "ICI",
+          "LSK"
+        ],
+        "key": {
+          "I": {
+            "item": "minecraft:iron_ingot"
+          },
+          "Q": {
+            "item": "minecraft:quartz"
+          },
+          "C": {
+            "item": "minecraft:copper_ingot"
+          },
+          "L": {
+            "item": "minecraft:slime_ball"
+          },
+          "S": {
+            "item": "minecraft:string"
+          },
+          "K": {
+            "item": "minecraft:ink_sac"
+          }
+        },
+        "result": {
+          "count": 16,
+          "item": "tofestechnograpple:dart"
+        }
+      }
+    }
+  ]
+}

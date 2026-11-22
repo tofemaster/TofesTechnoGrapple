@@ -1,0 +1,48 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.+'
+}
+
+version = '0.5.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+    runs {
+        configureEach {
+            workingDirectory project.file('run')
+            mods {
+                tofestechnograpple { source sourceSets.main }
+            }
+        }
+        client {}
+        server { args '--nogui' }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'technograpple.refmap.json'
+    config 'technograpple.mixins.json'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://www.cursemaven.com'
+        content { includeGroup 'curse.maven' }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    compileOnly fg.deobf('curse.maven:faktocraft-1675352:9352785')
+}
+
+tasks.named('jar', Jar) {
+    archiveClassifier = 'mc1.20.1'
+    from('LICENSE')
+    manifest.attributes('MixinConfigs': 'technograpple.mixins.json')
+    finalizedBy 'reobfJar'
+}

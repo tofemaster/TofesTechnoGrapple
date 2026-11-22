@@ -1,0 +1,14 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "tofestechnograpple:vanilla_like",
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "tofestechnograpple:item/vanilla_like_dart"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "tofestechnograpple:item/dart"
+    }
+  }
+}

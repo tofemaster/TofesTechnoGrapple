@@ -1,0 +1,31 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "technograpple.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "technograpple.refmap.json",
+  "mixins": [
+    "DisplayRange",
+    "GauntletGroundFrictionMixin",
+    "GauntletGlideLockMixin",
+    "SunInventoryLockMixin",
+    "SunContainerLockMixin",
+    "SunHotbarPacketMixin"
+  ],
+  "client": [
+    "GauntletUseAnimationMixin",
+    "GauntletUseMovementMixin",
+    "ItemInHandRendererInvoker",
+    "GauntletPointingPoseMixin",
+    "GauntletElbowRenderMixin",
+    "GauntletElbowMeshMixin",
+    "GauntletOutletCaptureMixin",
+    "SunHotbarKeyMixin",
+    "SunSizeMixin",
+    "IrisPhotonSunMixin",
+    "IrisSunUniformMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

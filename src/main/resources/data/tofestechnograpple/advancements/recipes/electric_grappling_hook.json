@@ -1,0 +1,39 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "faktocraft"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_energy_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "faktocraft:energy_crystal"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_energy_crystal"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "tofestechnograpple:electric_grappling_hook"
+          ]
+        }
+      }
+    }
+  ]
+}

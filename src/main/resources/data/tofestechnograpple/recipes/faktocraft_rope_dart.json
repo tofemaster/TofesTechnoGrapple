@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "faktocraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "pattern": [
+          " L ",
+          "ICI",
+          "FSF"
+        ],
+        "key": {
+          "L": {
+            "item": "faktocraft:lead_plate"
+          },
+          "I": {
+            "item": "faktocraft:iron_plate"
+          },
+          "C": {
+            "item": "faktocraft:copper_plate"
+          },
+          "F": {
+            "item": "faktocraft:carbon_fibers"
+          },
+          "S": {
+            "item": "minecraft:string"
+          }
+        },
+        "result": {
+          "count": 16,
+          "item": "tofestechnograpple:rope_dart"
+        }
+      }
+    }
+  ]
+}

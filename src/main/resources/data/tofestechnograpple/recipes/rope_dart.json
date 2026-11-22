@@ -1,0 +1,49 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "faktocraft"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "pattern": [
+          "IPI",
+          "ICI",
+          "LSK"
+        ],
+        "key": {
+          "I": {
+            "item": "minecraft:iron_ingot"
+          },
+          "C": {
+            "item": "minecraft:copper_ingot"
+          },
+          "L": {
+            "item": "minecraft:leather"
+          },
+          "K": {
+            "item": "minecraft:ink_sac"
+          },
+          "S": {
+            "item": "minecraft:string"
+          },
+          "P": {
+            "item": "minecraft:prismarine_shard"
+          }
+        },
+        "result": {
+          "count": 16,
+          "item": "tofestechnograpple:rope_dart"
+        }
+      }
+    }
+  ]
+}

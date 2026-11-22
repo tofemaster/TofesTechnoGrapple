@@ -1,0 +1,19 @@
+{
+  "tofestechnograpple.configuration.title": "Tofe's TechnoGrapple",
+  "tofestechnograpple.configuration.hcts": "HCTS",
+  "tofestechnograpple.configuration.hcts.tooltip": "Enable/disable the 'Here Comes The Sun' event",
+  "tofestechnograpple.configuration.vanilla_like": "Vanilla-like",
+  "tofestechnograpple.configuration.vanilla_like.tooltip": "Enable/disable vanilla appearance",
+  "item.tofestechnograpple.grappling_hook": "TechnoGrapple",
+  "item.tofestechnograpple.creative_grappling_hook": "TechnoGrapple (Creative)",
+  "item.tofestechnograpple.dart": "Whip Dart",
+  "subtitles.tofestechnograpple.hook_launch": "Grappling hook fires",
+  "subtitles.tofestechnograpple.pump_return": "Grappling hook pump extends",
+  "subtitles.tofestechnograpple.whip_pull": "Grappling hook valve releases",
+  "subtitles.tofestechnograpple.cannot_fire": "Grappling hook fails to fire",
+  "item.tofestechnograpple.rope_dart": "Grip Dart",
+  "subtitles.tofestechnograpple.reload_eject": "Darts slide out",
+  "subtitles.tofestechnograpple.reload_insert": "Darts click into place",
+  "death.attack.tofestechnograpple.exceptional_curiosity": "%1$s was killed by exceptional curiosity",
+  "death.attack.tofestechnograpple.someone_elses_exceptional_curiosity": "%1$s was killed by someone else's exceptional curiosity"
+}

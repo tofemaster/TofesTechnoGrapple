@@ -1,0 +1,43 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "faktocraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "pattern": [
+          " S ",
+          "ACA",
+          "RFR"
+        ],
+        "key": {
+          "S": {
+            "item": "faktocraft:steel_plate"
+          },
+          "A": {
+            "item": "faktocraft:advanced_alloy"
+          },
+          "C": {
+            "item": "faktocraft:copper_plate"
+          },
+          "R": {
+            "item": "faktocraft:rubber"
+          },
+          "F": {
+            "item": "faktocraft:combined_carbon_fibers"
+          }
+        },
+        "result": {
+          "count": 16,
+          "item": "tofestechnograpple:dart"
+        }
+      }
+    }
+  ]
+}

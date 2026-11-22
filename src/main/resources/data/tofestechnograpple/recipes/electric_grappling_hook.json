@@ -1,0 +1,45 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "faktocraft"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "category": "equipment",
+        "pattern": [
+          "ACD",
+          "STS",
+          "SES"
+        ],
+        "key": {
+          "A": {
+            "item": "minecraft:amethyst_shard"
+          },
+          "C": {
+            "item": "faktocraft:copper_plate"
+          },
+          "D": {
+            "item": "minecraft:diamond"
+          },
+          "S": {
+            "item": "faktocraft:steel_plate"
+          },
+          "T": {
+            "item": "faktocraft:advanced_circuit"
+          },
+          "E": {
+            "item": "faktocraft:energy_crystal"
+          }
+        },
+        "result": {
+          "item": "tofestechnograpple:grappling_hook"
+        }
+      }
+    }
+  ]
+}

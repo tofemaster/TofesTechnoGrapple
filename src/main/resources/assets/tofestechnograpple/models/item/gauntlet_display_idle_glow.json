@@ -1,0 +1,89 @@
+{
+  "parent": "tofestechnograpple:item/electronic_gauntlet",
+  "textures": {
+    "status": "tofestechnograpple:item/gauntlet_dart_idle_glow"
+  },
+  "loader": "tofestechnograpple:cuboids",
+  "cuboids": [
+    {
+      "name": "Tilted state display",
+      "from": [
+        6.13,
+        10.58,
+        12.075
+      ],
+      "to": [
+        9.82,
+        11.99,
+        12.13
+      ],
+      "light_emission": 15,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#status"
+        },
+        "east": {
+          "uv": [
+            8,
+            4,
+            12,
+            8
+          ],
+          "texture": "#body"
+        },
+        "south": {
+          "uv": [
+            8,
+            4,
+            12,
+            8
+          ],
+          "texture": "#body"
+        },
+        "west": {
+          "uv": [
+            8,
+            4,
+            12,
+            8
+          ],
+          "texture": "#body"
+        },
+        "up": {
+          "uv": [
+            8,
+            4,
+            12,
+            8
+          ],
+          "texture": "#body"
+        },
+        "down": {
+          "uv": [
+            8,
+            4,
+            12,
+            8
+          ],
+          "texture": "#body"
+        }
+      },
+      "rotation": {
+        "x": 59.5,
+        "y": 0,
+        "z": 0,
+        "origin": [
+          8,
+          11.15,
+          12.39
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "faktocraft"
+          }
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_netherite": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "minecraft:netherite_ingot"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_netherite"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "tofestechnograpple:grappling_hook"
+          ]
+        }
+      }
+    }
+  ]
+}

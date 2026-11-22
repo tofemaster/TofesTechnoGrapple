@@ -1,15 +1,9 @@
-# Tofe's TechnoGrapple
+# Tofe's TechnoGrapple 0.5.0 beta
 
-A grappling hook mod for Minecraft on NeoForge.
+This build targets Minecraft 1.20.1 with Forge 47.4.28 or later in the 47.x series.
 
-| Minecraft | Source | Beta download |
-| --- | --- | --- |
-| 26.1 | [mc/26.1](../../tree/mc/26.1) | [0.5.0](../../releases/tag/v0.5.0-mc26.1) |
-| 26.1.1 | [mc/26.1.1](../../tree/mc/26.1.1) | [0.5.0](../../releases/tag/v0.5.0-mc26.1.1) |
-| 26.1.2 | [mc/26.1.2](../../tree/mc/26.1.2) | [0.5.0](../../releases/tag/v0.5.0-mc26.1.2) |
-| 26.2 | [mc/26.2](../../tree/mc/26.2) | [0.5.0](../../releases/tag/v0.5.0-mc26.2) |
-| 26.3 | [mc/26.3](../../tree/mc/26.3) | [0.5.0](../../releases/tag/v0.5.0-mc26.3) |
+Download [the beta JAR](tofestechnograpple-0.5.0-mc1.20.1.jar) and place it in your Forge instance's `mods` folder.
 
-Download the JAR for your exact Minecraft version and place it in the mods folder of your NeoForge instance.
+## Build from source
 
-Source is available under the MIT License.
+Use JDK 17 and run `./gradlew build` on macOS or Linux, or `gradlew.bat build` on Windows. Gradle writes the mod JAR to `build/libs/`.

@@ -1,0 +1,39 @@
+{
+  "advancements": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "faktocraft"
+        }
+      ],
+      "advancement": {
+        "parent": "minecraft:recipes/root",
+        "criteria": {
+          "has_gauntlet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+              "items": [
+                {
+                  "items": [
+                    "tofestechnograpple:grappling_hook"
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "requirements": [
+          [
+            "has_gauntlet"
+          ]
+        ],
+        "rewards": {
+          "recipes": [
+            "tofestechnograpple:faktocraft_rope_dart"
+          ]
+        }
+      }
+    }
+  ]
+}
